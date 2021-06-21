@@ -1,6 +1,5 @@
 import * as React from "react"
 import * as heroStyles from "./hero.module.css"
-import { StaticImage } from "gatsby-plugin-image"
 
 const Hero = () => (
   <div className={heroStyles.heroSection}>

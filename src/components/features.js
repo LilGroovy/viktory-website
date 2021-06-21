@@ -3,10 +3,10 @@ import * as featuresStyles from "./features.module.css"
 import Carousel from "react-bootstrap/Carousel"
 
 const Features = () => (
-  <section className={featuresStyles.featureSection}>
+  <section>
     <h2>Features</h2>
-    <div className={featuresStyles.carouselWrapper}>
-        <Carousel fade className={featuresStyles.carousel}>
+    <div>
+        <Carousel fade>
             <Carousel.Item>
                 <div className={featuresStyles.featureSlide}>
                     <div className={featuresStyles.featurePicture}></div>

@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Button from "react-bootstrap/Button"
 
 const Nav = () => (
