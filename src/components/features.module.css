@@ -24,16 +24,16 @@
 }
 
 .featurePicture {
-  background-image: url(../images/bike/IMG_2632.jpg);
+  /*background-image: url(../images/bike/IMG_2632.jpg);*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.one {
+/*.one {
     background-image: url(../images/bike/IMG_2634.jpg);
 }
 
 .two {
     background-image: url(../images/bike/IMG_2635.jpg);
-}
+}*/
