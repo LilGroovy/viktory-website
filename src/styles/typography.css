@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'gt-america';
+    src: url('fonts/GT_America/GT-America-Standard-Regular-Trial.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'gt-america-expanded';
+    src: url('fonts/GT_America/GT-America-Expanded-Regular-Trial.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'gt-america-expanded';
+    src: url('fonts/GT_America/GT-America-Expanded-Medium-Trial.woff2') format('woff2');
+    font-weight: medium;
+  }
+
+
+  
+ 

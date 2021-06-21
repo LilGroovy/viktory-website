@@ -1,0 +1,68 @@
+.contact {
+    padding: 4rem 0;
+}
+
+.contactInfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0rem 1rem;
+    padding-bottom: 1rem;}
+
+.contactInfo p {
+    margin-bottom: 1rem;
+}
+
+.breakWord {
+    word-break:break-word;
+}
+
+.contactForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 1rem;
+    margin: 0;
+}
+
+.inputText  {
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+.inputText:focus  {
+    border: 1px solid yellow;
+    box-shadow: 0 0 0 0.2rem rgba(255, 196, 0, 0.226);
+    color: black;
+}
+
+.submitButton {
+    border: 2px solid yellow;
+    background-color: yellow;
+    color: black;
+    border-radius: 30px;
+    align-self: center;
+    justify-self: center;
+    font-family: 'gt-america-expanded';
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.submitButton:hover {
+    background-color: black;
+    border: 2px solid black;
+    color: yellow;
+    
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .contactInfo {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .contactForm {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }

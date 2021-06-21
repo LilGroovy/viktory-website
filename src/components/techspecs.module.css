@@ -1,0 +1,24 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0rem 0rem;
+}
+
+.category {
+  font-weight: bold;
+}
+.category,
+.spec {
+  border-bottom: solid black 1px;
+  padding: 0rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .category {
+    border-bottom: none;
+    margin-bottom: 0.5rem;
+  }
+}

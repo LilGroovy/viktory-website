@@ -1,0 +1,18 @@
+.heroSection {
+  min-height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bikePicture {
+  background-image: url("../images/bike/IMG_2631.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-grow: 1;
+}
+
+.bikeSlogan {
+    padding: 1rem 0rem;
+}

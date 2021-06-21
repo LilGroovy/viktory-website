@@ -1,0 +1,39 @@
+
+.featureSlide {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 0 auto;
+  min-height: 400px;
+  position: relative;
+  background-color: yellow;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.featureDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featureHeading {
+    font-weight: bold;
+}
+
+.featurePicture {
+  background-image: url(../images/bike/IMG_2632.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.one {
+    background-image: url(../images/bike/IMG_2634.jpg);
+}
+
+.two {
+    background-image: url(../images/bike/IMG_2635.jpg);
+}
