@@ -6,7 +6,8 @@
 }
 
 .bikePicture {
-  background-image: url("../images/bike/IMG_2631-min.jpg");
+  /*background-image: url("../images/bike/IMG_2631-min.jpg");*/
+  background-image: url(../images/KUB-Kunsthaus-Bregenz-third-floor-Adrian-Villar-Roja-exhibition.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
