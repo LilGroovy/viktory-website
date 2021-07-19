@@ -103,7 +103,7 @@ class BootstrapForm extends React.Component {
         <div>
           <div>
             <h3>
-              Es ist ein Fehler aufgetreten, bitte versuchen Sie es nochmal.
+              An error occured. Please try again.
             </h3>
           </div>
         </div>
@@ -114,7 +114,7 @@ class BootstrapForm extends React.Component {
       return (
         <div>
           <div>
-            <h3>Vielen Dank für Ihre Nachricht!</h3>
+            <h3>Thank you for your message! We will get in touch shortly.</h3>
           </div>
         </div>
       )
@@ -133,7 +133,7 @@ class BootstrapForm extends React.Component {
               required
               size="lg"
               type="text"
-              placeholder="Ihr Name"
+              placeholder="Your Name"
               onChange={this.handleInputChange}
             />
           </Form.Group>
@@ -145,7 +145,7 @@ class BootstrapForm extends React.Component {
               required
               size="lg"
               type="email"
-              placeholder="Ihre Email"
+              placeholder="Your Email"
               onChange={this.handleInputChange}
             />
           </Form.Group>
@@ -158,7 +158,7 @@ class BootstrapForm extends React.Component {
               size="lg"
               as="textarea"
               rows={4}
-              placeholder="Was ist Ihr Anliegen?"
+              placeholder="How can we help you?"
               onChange={this.handleInputChange}
             />
           </Form.Group>
@@ -169,7 +169,7 @@ class BootstrapForm extends React.Component {
             size="lg"
             type="submit"
           >
-            Abschicken
+            Shoot away
           </Button>
         </Form>
       </div>

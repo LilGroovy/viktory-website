@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .featureHeading {
@@ -25,16 +26,53 @@
 }
 
 .featurePicture {
-  background-image: url(../images/bike/IMG_2631.jpg);
+  background-image: url(../images/bike/rear_side.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .one {
-    background-image: url(../images/bike/IMG_2634.jpg);
+    background-image: url(../images/bike/brakes.jpg);
 }
 
 .two {
-    background-image: url(../images/bike/IMG_2635.jpg);
+    background-image: url(../images/bike/rear.jpg);
 }
+
+.three {
+    background-image: url(../images/bike/front.jpg);
+}
+
+.four {
+    background-image: url(../images/bike/rear_side.jpg);
+}
+
+.five {
+    background-image: url(../images/bike/rear.jpg);
+}
+
+.six {
+    background-image: url(../images/bike/rear_side.jpg);
+}
+
+.seven {
+    background-image: url(../images/bike/rear_side.jpg);
+}
+
+.eight {
+    background-image: url(../images/bike/side.jpg);
+}
+
+.nine {
+    background-image: url(../images/bike/rear.jpg);
+}
+
+.ten {
+    background-image: url(../images/bike/side.jpg);
+}
+
+.eleven {
+    background-image: url(../images/bike/front.jpg);
+}
+
