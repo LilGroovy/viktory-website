@@ -12,7 +12,7 @@ const IndexPage = () => (
     <Header />
     
     <Layout>
-      <Seo title="Home" />
+      <Seo title="Viktory One: A Custom High-Perfomance E-Mountain Bike | Viktory Bikes" description="The Viktory One is a custom-built lightweight high-performance E-Mountain Bike. Engineered for fun and built with love."  />
       <Hero />
       <Features />
       <Techspecs />
